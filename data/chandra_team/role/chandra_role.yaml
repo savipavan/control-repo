@@ -1,0 +1,11 @@
+---
+classes:
+  - types
+types::files:
+  '/tmp/testdir':
+    ensure: directory
+    mode: '0644'
+  '/tmp/testdir/file.txt':
+    ensure: 'file'
+    mode: '0755'
+    content: 'This file is modified by chandra_role file'
