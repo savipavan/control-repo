@@ -1,2 +1,7 @@
 ---
-message: "This node is using common data"
+classes:
+  - types
+types::files:
+  '/tmp/testdir':
+    ensure: directory
+    mode: '0644'
