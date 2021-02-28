@@ -8,7 +8,7 @@ hierarchy:
   - name: "Yaml backend"
     data_hash: yaml_data
     paths:
-#      - "team/%{team}/fqdn/%{::fqdn}.yaml"
+      - "team/%{team}/fqdn/%{::fqdn}.yaml"
       - "team/%{team}/customization/%{customization}.yaml"
       - "team/%{team}/role/%{role}.yaml"
       - "team/%{team}/profile/%{profile}.yaml"
