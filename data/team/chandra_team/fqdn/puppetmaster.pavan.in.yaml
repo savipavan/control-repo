@@ -1,3 +1,4 @@
 ---
-class { 'puppetdb': }
-class { 'puppetdb::master::config': }
+classes:
+  - puppetdb
+  - puppetdb::master::config
